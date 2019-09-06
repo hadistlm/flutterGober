@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:gober/landing/landingpage_view.dart';
+import 'package:gojek/elements/beranda/beranda_appbar.dart';
 
 class BerandaPage  extends StatefulWidget {
   @override
@@ -10,6 +11,11 @@ class BerandaPage  extends StatefulWidget {
 class _BerandaPageState extends State<BerandaPage> {
 	@override
 	Widget build(BuildContext context) {
- 	   return Scaffold();
+		return new SafeArea(
+			child: Scaffold(
+				appBar: new GoberAppBar(),
+	      		body: new Container(),
+			)
+		);
   	}
 }
