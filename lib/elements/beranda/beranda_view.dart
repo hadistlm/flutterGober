@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:gober/landing/landingpage_view.dart';
-import 'package:gojek/elements/beranda/beranda_appbar.dart';
+import 'package:gober/elements/beranda/beranda_appbar.dart';
 
 class BerandaPage  extends StatefulWidget {
   @override
